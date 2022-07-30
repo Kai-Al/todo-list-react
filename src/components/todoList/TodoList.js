@@ -1,14 +1,13 @@
 import './TodoList.css';
 
-function TodoList(props){
-    return (
-        <>
-        <ul>
-            {props.children}
-        </ul>
-        </>
-
-    )
+function TodoList(props) {
+  return (
+    <section>
+      <ul>
+        {props.children}
+      </ul>
+    </section>
+  );
 }
 
-export {TodoList};
+export { TodoList };
