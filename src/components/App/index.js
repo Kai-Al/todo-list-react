@@ -3,20 +3,15 @@ import { AppUI } from "./AppUi";
 import { TodoProvider } from "../TodoContext";
 
 const defaultTodos = [
-  { text: 'Learn JS', completed: true },
-  { text: 'Learn HTML', completed: false },
-  { text: 'Learn CSS', completed: true },
+  { text: "Learn JS", completed: true },
+  { text: "Learn HTML", completed: false },
+  { text: "Learn CSS", completed: true },
 ];
 
-
-
-
 function App() {
- 
-
   return (
     <TodoProvider>
-      <AppUI/>
+      <AppUI />
     </TodoProvider>
   );
 }

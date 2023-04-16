@@ -1,0 +1,6 @@
+{
+  "sonarlint.connectedMode.project": {
+    "connectionId": "kai-al",
+    "projectKey": "Kai-Al_todo-list-react"
+  }
+}
