@@ -33,7 +33,6 @@ textarea {
 
 textarea::placeholder {
   color: #a5a5a5;
-  font-family: "Montserrat";
   font-weight: 400;
 }
 
@@ -59,7 +58,6 @@ textarea:focus {
   height: 48px;
   border-radius: 2px;
   border: none;
-  font-family: "Montserrat";
 }
 
 .TodoForm-button--add {
