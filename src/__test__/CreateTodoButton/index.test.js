@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render, fireEvent } from "@testing-library/react";
-import { CreateTodoButton } from "./index";
+import { CreateTodoButton } from "../../components/CreateTodoButton/index";
 import { screen } from "@testing-library/dom";
 
 describe("<CreateTodoButton />", () => {

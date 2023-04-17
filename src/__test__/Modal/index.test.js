@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom/extend-expect";
 import { render } from "@testing-library/react";
-import { Modal } from "./index";
+import { Modal } from "../../components/Modal/index";
 import ReactDOM from "react-dom";
 
 describe("<Modal />", () => {

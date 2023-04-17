@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom/extend-expect";
-import { TodoSearch } from "./index";
+import { TodoSearch } from "../../components/TodoSearch/index";
 import { render } from "@testing-library/react";
-import { TodoContext } from "../TodoContext";
+import { TodoContext } from "../../components/TodoContext";
 
 describe("<TodoSearch />", () => {
   test("Se renderiza la barra de busqueda", () => {
